@@ -3,25 +3,28 @@
 <html>
 <head>
     <title>Tahmid's Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div><!---Name and Info-->
-        <img src = "27750751_10214868716572729_6871365898574566839_n.jpg" alt="Tahmid's picture" width="84" height="110" style=float:left>
-        <h1 style="text-align:center">Tahmid Bin Mahmud</h1>
-        <p style="text-align:center"><b>Undergraduate Student <br> 336, T.V. Road, East Rampura, Dhaka | +8801685918554 | rifatmahmud196@gmail.com</b></p>
-        <hr>
+<body id="background">
+    <div id="nAndi"><!---Name and Info-->
+        <div id="profilePicture">
+            <img src = "27750751_10214868716572729_6871365898574566839_n.jpg" alt="Tahmid's picture" width="114" height="150">
+        </div>
+        <h1 style="text-align: center">tahmid bin mahmud</h1>
+        <p style="text-align: center"><b>Undergraduate Student <br> 336, T.V. Road, East Rampura, Dhaka | +8801685918554 | rifatmahmud196@gmail.com</b></p>
+        <!-- <hr> -->
     </div>
     <div><!--Objective-->
         <p><b>Objective: </b>To work with a reputed organization in a position where I can develop and utilize my skills and prove my worth</p>
     </div>
     <div><!---Personal Details-->
-        <p style="text-align:center">PERSONAL DETAILS</p>
+        <p class="headings">PERSONAL DETAILS</p>
         <p>Date of Birth: 24 January, 1996 <br> Nationality: Bangladesh <br>
         Gender: Male <br> Marital Status: Single</p>
         <hr>
     </div>
     <div><!--Educational Background-->
-        <p style="text-align:center">EDUCATIONAL BACKGROUND</p>
+        <p class="headings">EDUCATIONAL BACKGROUND</p>
         <p>
             <ul>
                 <li>Independent University, Bangladesh (IUB) <br>
@@ -39,23 +42,23 @@
         <hr>
     </div>
     <div><!--Skills-->
-        <p style="text-align:center">SKILLS</p>
-        <table style="width:100%">
+        <p class="headings">SKILLS</p>
+        <table style="width:65%">
         <tr>
             <th>Computer Science</th>
             <th>Environmental Science</th>
         </tr>
         <tr>
-            <td><small>Adept in Programming Languages: C++, Python, Java</small></td>
-            <td><small>Experience in working with GIS based softwares</small></td>
+            <td>Adept in Programming Languages: C++, Python, Java</td>
+            <td>Experience in working with GIS based softwares</td>
         </tr>
         <tr>
-            <td><small>Familiar with Web designing using HTML, CSS and Bootstrap</small></td>
-            <td><small>Hands-on Laboratory Experience conducting Environmental experiments</small></td>
+            <td>Familiar with Web designing using HTML, CSS and Bootstrap</td>
+            <td>Hands-on Laboratory Experience conducting Environmental experiments</td>
         </tr>
         <tr>
-            <td><small>Technically proficient in Microsoft Word, Powerpoint, Excel and Visio</small></td>
-            <td><small>Conducting Qualitative and Quantitative Environmental Research Surveys</small></td>
+            <td>Technically proficient in Microsoft Word, Powerpoint, Excel and Visio</td>
+            <td>Conducting Qualitative and Quantitative Environmental Research Surveys</td>
         </tr>
         </table>
         <!-- <p>
@@ -71,7 +74,7 @@
         <hr>
     </div>
     <div><!--Strengths-->
-        <p style="text-align:center">STRENGTHS</p>
+        <p class="headings">STRENGTHS</p>
         <p>
             <ul>
                 <li>Strong command over the English Language both in terms of verbal and written</li>
@@ -84,7 +87,7 @@
         <hr>
     </div>
     <div><!--Experiences-->
-        <p style="text-align:center">EXPERIENCES</p>
+        <p class="headings">EXPERIENCES</p>
         <p>
             <ul>
                 <li><a href="https://www.bioforgehealth.org/"><b>Bioforge</b></a> <br>
@@ -105,7 +108,7 @@
         <hr>
     </div>
     <div><!--Honours and Awards-->
-        <p style="text-align:center">HONOURS AND AWARDS</p>
+        <p class="headings">HONOURS AND AWARDS</p>
         <p>
             <ul>
                 <li>Dean's List Award: Fall 2017</li>
@@ -115,7 +118,7 @@
         <hr>
     </div>
     <div><!--Contact Links-->
-        <p style="text-align:center">CONTACT LINKS</p>
+        <p class="headings">CONTACT LINKS</p>
         <p>
             <ul>
                 <li><a href="https://www.facebook.com/Lismymentor">Facebook Profile</li>
@@ -125,10 +128,11 @@
         <hr>
     </div>
     <div><!--Email Section--></div>
-    <p style="text-align:center">EMAIL ME</p>
+    <p class="headings">EMAIL ME</p>
     <p>Name: <textarea rows="1" cols="50" placeholder="Enter your name"></textarea> <br>
     Email: <textarea rows="1" cols="50" placeholder="Enter you email id"></textarea> <br>
-    Message: <textarea rows="4" cols="50" placeholder="Write your message here"></textarea>
+    Message: <textarea rows="4" cols="50" placeholder="Write your message here"></textarea> <br>
+    <input type="button" value="Submit"></input>
     </p>
 </body>
 </html>
